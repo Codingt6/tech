@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monalisa Ashley Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         body {
+            font-family: sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 1000px;
+            padding: 30px;
+            display: flex;
+            gap: 20px;
+        }
+
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .profile img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .profile h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .profile p {
+            font-size: 16px;
+            color: #555;
+        }
+
+        .profile .social-links {
+            display: flex;
+            margin-top: 20px;
+            gap: 15px;
+        }
+
+        .profile .social-links a {
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+        }
+
+        .profile .info {
+            border: 1px solid #ddd;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .profile .info .title {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .profile .info p {
+            font-size: 14px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .profile .download-cv {
+            background: #007bff;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .content {
+            flex: 1;
+        }
+
+        .content h2 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .content p {
+            font-size: 16px;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .content .services {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .content .service {
+            background: #f5f5f5;
+            border-radius: 5px;
+            padding: 20px;
+            flex: 1 0 300px;
+            text-align: center;
+        }
+
+        .content .service i {
+            font-size: 30px;
+            color: #007bff;
+            margin-bottom: 10px;
+        }
+
+        .content .service h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .content .service p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .sidebar {
+            width: 200px;
+            background: #f0f0f0;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .sidebar h3 {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+
+        .sidebar ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .sidebar li {
+            margin-bottom: 15px;
+        }
+
+        .sidebar a {
+            text-decoration: none;
+            color: #333;
+            font-size: 16px;
+        }
+
+        .sidebar a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+            <img src="https://www.gravatar.com/avatar/205e460b479e2e5b48aec07710c08d50?s=200" alt="Monalisa Ashley">
+            <h2>Monalisa Ashley</h2>
+            <p>UI/UX Designer</p>
+            <div class="social-links">
+                <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a> 
+                <button type="submit">
+                    <i class="fa-solid fa-arrow-right" title="Next Page"></i>
+                  </button>
+            </div>
+            <div class="info">
+                <div class="title">Phone</div>
+                <p>+123 456 7890</p>
+                <div class="title">Email</div>
+                <p>Example@Mail.Com</p>
+                <div class="title">Location</div>
+                <p>Hong Kong China</p>
+                <div class="title">Birthday</div>
+                <p>May 27, 1990</p>
+            </div>
+            <a href="#" class="download-cv">Download CV</a>
+        </div>
+        <div class="content">
+            <h2>About</h2>
+            <p>I-'m Creative Director and UI/-UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.</p>
+            <p>My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.</p>
+            <h2>What I Do!</h2>
+            <div class="services">
+                <div class="service">
+                    <i class="fas fa-code"></i>
+                    <h3>UI/UX Design</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>App Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. sed diam euismod tincidunt volutpat.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-camera"></i>
+                    <h3>Photography</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                </div>
+                <div class="service">
+                    <i class="fas fa-laptop-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam euismod tincidunt volutpat.</p>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Works</a></li>
+                <li><a href="#">Blogs</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/your-font-awesome-kit-id.js" crossorigin="anonymous"></script>
+</body>
+</html>
